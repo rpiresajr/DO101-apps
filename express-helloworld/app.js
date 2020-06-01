@@ -2,9 +2,8 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!\n');
-  for(var i=0;i<20;i++)
-    res.send('Renato!\n');
+  res.send('Ola Renato, como vai?\n');
+  
 });
 
 app.listen(8080, function () {
